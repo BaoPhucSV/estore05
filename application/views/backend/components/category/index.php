@@ -56,7 +56,7 @@
 											<tr>
 												<td class="text-center"><?php echo $row['id'] ?></td>
 												<td>
-													<a href="<?php echo base_url() ?>admin/category/update/<?php echo $row['id'] ?>"><?php echo $row['name'] ?>
+													<a href="admin/category/update/<?php echo $row['id'] ?>"><?php echo $row['name'] ?>
 													(<?php $total=$this->Mproduct->product_count_parentid($row['id']); echo $total; ?>)
 												</a>	
 											</td>
@@ -78,7 +78,7 @@
 												<?php echo $row['created_at'] ?>
 											</td>
 											<td class="text-center">
-												<a href="<?php echo base_url() ?>admin/category/status/<?php echo $row['id'] ?>">
+												<a href="admin/category/status/<?php echo $row['id'] ?>">
 													<?php if($row['status']==1):?>
 														<span class="glyphicon glyphicon-ok-circle mauxanh18"></span>
 														<?php else: ?>
@@ -89,7 +89,7 @@
 												<?php
 												if($user['role']==1){
 													echo '<td class="text-center">
-													<a class="btn btn-success btn-xs" href="<?php echo base_url() ?>admin/category/update/'.$row['id'] .'" role = "button">
+													<a class="btn btn-success btn-xs" href="admin/category/update/'.$row['id'] .'" role = "button">
 													<span class="glyphicon glyphicon-edit"></span>Sửa
 													</a>
 													</td>';
@@ -97,7 +97,7 @@
 												?>
 												
 												<td class="text-center">
-													<a class="btn btn-danger btn-xs" href="<?php echo base_url() ?>admin/category/trash/<?php echo $row['id'] ?>" onclick="return confirm('Xác nhận xóa loại sản phẩm này ?')" role = "button">
+													<a class="btn btn-danger btn-xs" href="admin/category/trash/<?php echo $row['id'] ?>" onclick="return confirm('Xác nhận xóa loại sản phẩm này ?')" role = "button">
 														<span class="glyphicon glyphicon-trash"></span>Xóa
 													</a>
 												</td>

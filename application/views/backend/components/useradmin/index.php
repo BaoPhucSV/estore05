@@ -69,7 +69,7 @@
 											<td><?php echo $row['phone'] ?></td>
 											<td><?php echo $row['address'] ?></td>
 											<td class="text-center">
-												<a href="<?php echo base_url() ?>admin/useradmin/status/<?php echo $row['id'] ?>">
+												<a href="admin/useradmin/status/<?php echo $row['id'] ?>">
 													<?php if($row['status']==1):?>
 														<span class="glyphicon glyphicon-ok-circle mauxanh18"></span>
 													<?php else: ?>

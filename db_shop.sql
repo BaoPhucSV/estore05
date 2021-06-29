@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 07, 2019 lúc 09:05 SA
+-- Thời gian đã tạo: Th6 06, 2021 lúc 09:05 SA
 -- Phiên bản máy phục vụ: 5.7.14
 -- Phiên bản PHP: 7.0.10
 
@@ -105,14 +105,13 @@ CREATE TABLE `db_contact` (
 --
 
 INSERT INTO `db_contact` (`id`, `title`, `phone`, `email`, `content`, `created_at`, `status`, `trash`, `fullname`) VALUES
-(1, 'Hay', '981643651', 'daigiadaklak@gmail.com', 'Hay', '2019/6/2', 1, 1, 'Ngô Văn Hiệp'),
-(2, 'Shop', '981643651', 'noreply.estore.pnb.2021@gmail.com', 'Shop 12 21', '2019/6/2', 1, 1, 'Ngô Văn Hiệp'),
-(4, 'Câu hỏi', '090305078', 'luong@gmail.com', 'Thời giàn giao hang trong Quận 12 là bào nhiêu', '2019/6/2', 1, 1, 'Lương'),
-(5, 'Câu hỏi', '090305078', 'luong@gmail.com', 'Thời giàn giao hang trong Quận 12 là bào nhiêu', '2019/6/2', 1, 0, 'Lương'),
-(6, 'Yêu cầu', '90305078', 'luong@gmail.com', 'Chào shop', '2019/6/2', 1, 0, 'Lương'),
-(7, 'Chào shop', '90305078', 'luong@gmail.com', '2', '2019/6/12', 0, 0, 'Lương'),
-(9, 'Câu hỏi', '0981643651', 'hiep@gmail.com', ' Giá ship quận gò vấp bao nhiêu', '2019/6/12', 0, 1, 'Hiệp gà'),
-(10, 'Câu hỏi', '0981643651', 'hiep@gmail.com', ' Giá ship quận gò vấp bao nhiêu', '2019/6/12', 1, 1, 'Hiệp gà');
+(1, 'Hay', '0788963501', '1951120182@sv.ut.edu.vn', 'Hay quá Bảo ơi', '2021/6/2', 1, 1, 'Phan Thị Ngọc Anh'),
+(2, 'Shop', '0788963500', 'micaetranquocbao2001@gmail.com', 'Shop 13 04', '2021/6/2', 1, 1, 'Trần Quốc Bảo'),
+(3, 'Câu hỏi', '0788963502', '1951120118@sv.ut.edu.vn', 'Thời giàn giao hang trong Quận 12 là bào nhiêu', '2021/6/2', 1, 1, 'Lương'),
+(4, 'Yêu cầu', '0788963503', '1951120099@sv.ut.edu.vn', 'Chào shop', '2021/6/2', 1, 0, 'Lương'),
+(5, 'Chào shop', '0788963500', 'bithu.cn19b@quocbaoit.com', '2', '2021/6/12', 0, 0, 'Lương'),
+(6, 'Câu hỏi', '0788963506', 'trannguyenbaophuc@gmail.com', ' Giá ship quận gò vấp bao nhiêu', '2021/6/12', 0, 1, 'Trần Nguyễn Bảo Phúc'),
+(7, 'Câu hỏi', '0788963509', 'xuannhutzz@gmail.com', ' Giá ship quận gò vấp bao nhiêu', '2021/6/12', 1, 1, 'Phạm Xuân Nhựt');
 
 -- --------------------------------------------------------
 
@@ -140,9 +139,9 @@ CREATE TABLE `db_content` (
 --
 
 INSERT INTO `db_content` (`id`, `title`, `alias`, `introtext`, `fulltext`, `img`, `created`, `created_by`, `modified`, `modified_by`, `trash`, `status`) VALUES
-(4, 'Bất chấp lệnh cấm, doanh số smartphone của Huawei vẫn tăng 130% ở Trung Quốc', 'bat-chap-lenh-cam-doanh-so-smartphone-cua-huawei-van-tang-130-o-trung-quoc', 'Điều này cho thấy ảnh hưởng từ cuộc chiến tranh thương mại Mỹ - Trung lên thị trường Trung Quốc là không đáng kể.', '<p>Kể từ khi ch&iacute;nh phủ Hoa Kỳ đưa&nbsp;<a href="https://fptshop.com.vn/dien-thoai/huawei" target="_blank">Huawei</a>&nbsp;v&agrave;o &ldquo;danh s&aacute;ch đen&rdquo;, rất nhiều c&ocirc;ng ty như Google Intel, Qualcomm v&agrave; ARM,... đều cũng đ&atilde; l&ecirc;n tiếng x&aacute;c nhận ngừng hợp t&aacute;c với nh&agrave; sản xuất đến từ Trung Quốc n&agrave;y.</p>\r\n\r\n<p>Ngo&agrave;i ra, c&aacute;c hiệp hội như Wi-Fi Alliance, hiệp hội b&aacute;n dẫn JEDEC, SDA (Hiệp hội SD) v&agrave; ti&ecirc;u chuẩn PCIe cũng hủy bỏ tư c&aacute;ch th&agrave;nh vi&ecirc;n của Huawei. Người ta tin rằng t&igrave;nh trạng n&agrave;y sẽ l&agrave;m sụp đổ hoạt động kinh doanh của Huawei ngay cả ở thị trường qu&ecirc; nh&agrave; Trung Quốc. Tuy nhi&ecirc;n, dường như lệnh cấm của Mỹ đang khuyến kh&iacute;ch người Trung Quốc chọn mua smartphone của nh&agrave; sản xuất Trung Quốc n&agrave;y.</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="https://fptshop.com.vn/uploads/images/tin-tuc/84115/Originals/Huawei-dat-doanh-thu-khung-tren-Tmall-2.jpg" style="height:650px; width:300px" /></p>\r\n\r\n<p>Cụ thể, sau lệnh cấm của Mỹ đối với Huawei v&agrave;o ng&agrave;y 16 th&aacute;ng 5, doanh số của điện thoại th&ocirc;ng minh Huawei tr&ecirc;n nền tảng Tmall đ&atilde; tăng mạnh. Theo dữ liệu ch&iacute;nh thức từ Tmall, từ ng&agrave;y 18 đến 20 th&aacute;ng 5, c&aacute;c l&ocirc; h&agrave;ng điện thoại di động của Huawei từ Tmall đ&atilde; tăng 130%, vượt mức tăng trưởng trung b&igrave;nh của ng&agrave;nh smartphone n&oacute;i chung tới 30%. V&agrave; để &ldquo;ăn mừng&rdquo; điều n&agrave;y, Huawei cũng đ&atilde; đăng tải một tấm poster để &ldquo;chia vui&rdquo; c&ugrave;ng người d&ugrave;ng.</p>\r\n\r\n<p>Để đạt được điều n&agrave;y l&agrave; do Trung Quốc gần như l&agrave; một thị trường kh&eacute;p k&iacute;n với c&aacute;c dịch vụ &ldquo;tự cung tự cấp&rdquo; v&agrave; kh&ocirc;ng hề dựa dẫm qu&aacute; nhiều v&agrave;o m&ocirc;i trường b&ecirc;n ngo&agrave;i. Do đ&oacute; ảnh hưởng từ lệnh cấm vận của Mỹ l&ecirc;n thị trường tỷ d&acirc;n n&agrave;y l&agrave; kh&ocirc;ng đ&aacute;ng kể v&agrave; Huawei ho&agrave;n to&agrave;n c&oacute; thể l&agrave;m chủ t&igrave;nh h&igrave;nh ở ngay tại thị trường nội địa m&agrave; kh&ocirc;ng gặp bất cứ vấn đề n&agrave;o.</p>\r\n\r\n<p><strong>Theo:&nbsp;</strong><em><a href="http://www.gizchina.com/2019/05/24/huawei-smartphone-shipment-grows-despite-us-ban/" target="_blank">Gizchina</a></em></p>\r\n', 'huawei-hongmeng-os_800x450.jpg', '2019-05-26 23:18:02', '1', '2019-06-23 18:03:27', '1', 1, 1),
-(5, 'HongMeng OS của Huawei xuất hiện trực tuyến, có tên quốc tế là Ark OS', 'hongmeng-os-cua-huawei-xuat-hien-truc-tuyen-co-ten-quoc-te-la-ark-os', '', '<h2>Kh&ocirc;ng c&ograve;n nghi ngờ g&igrave; nữa,&nbsp;<a href="https://www.thegioididong.com/dtdd-huawei" target="_blank">Huawei</a>&nbsp;đang ph&aacute;t triển hệ điều h&agrave;nh của ri&ecirc;ng m&igrave;nh, c&oacute; thể được gọi l&agrave;&nbsp;<a href="https://www.thegioididong.com/tin-tuc/huawei-mate-30-se-chay-he-dieu-hanh-hongmeng-os-va-chip-kirin-985-1170811" target="_blank">HongMeng OS</a>&nbsp;ở Trung Quốc v&agrave; Ark OS ở c&aacute;c quốc gia kh&aacute;c. Hệ thống n&agrave;y đ&atilde; th&ocirc;ng qua chứng nhận nh&atilde;n hiệu của Văn ph&ograve;ng Thương hiệu Trung Quốc cũng như Văn ph&ograve;ng Sở hữu Tr&iacute; tuệ Ch&acirc;u &Acirc;u.</h2>\r\n\r\n<p>C&aacute;c b&aacute;o c&aacute;o gần đ&acirc;y cho thấy Huawei đ&atilde; nộp đơn xin cấp bằng s&aacute;ng chế giao diện&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;với t&ecirc;n l&agrave; Huawei Ark OS.&nbsp;Trong đ&oacute;, Ark v&agrave; Huawei Ark đ&atilde; được&nbsp;Văn ph&ograve;ng nh&atilde;n hiệu v&agrave; bằng s&aacute;ng chế của Đức chứng nhận v&agrave;o th&aacute;ng 3 năm nay.</p>\r\n\r\n<p>Ứng dụng bằng s&aacute;ng chế cũng bao gồm một loạt c&aacute;c ảnh chụp m&agrave;n h&igrave;nh. Tuy nhi&ecirc;n, kh&ocirc;ng r&otilde; liệu ảnh chụp m&agrave;n h&igrave;nh b&ecirc;n dưới c&oacute; thuộc hệ thống HongMeng/ Ark sắp tới của Huawei hay kh&ocirc;ng.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt="" src="https://cdn.tgdd.vn/Files/2019/06/08/1171773/Gallery/ark-os-z.jpg" style="height:309px; width:550px" /></p>\r\n\r\n<p>Một trong những ảnh chụp m&agrave;n h&igrave;nh c&oacute; cụm từ &quot;Android Green Alliance&quot; gợi &yacute; rằng hệ thống HongMeng/ Ark c&oacute; thể tương th&iacute;ch với c&aacute;c ứng dụng&nbsp;<a href="https://www.thegioididong.com/dtdd?g=android" target="_blank">Android</a>. Li&ecirc;n minh Android Xanh được Huawei, Alibaba, Tencent v&agrave; Netease phối hợp ra mắt. N&oacute; nhằm mục đ&iacute;ch tạo ra một hệ sinh th&aacute;i ứng dụng an to&agrave;n, đ&aacute;ng tin cậy v&agrave; l&agrave;nh mạnh.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt="" src="https://cdn.tgdd.vn/Files/2019/06/08/1171773/ark-os_550x409.jpg" style="height:409px; width:550px" /></p>\r\n\r\n<p>Hiện nay, nhiều c&ocirc;ng ty đ&atilde; tham gia. Trước đ&acirc;y, Yu Chengdong -&nbsp;Gi&aacute;m đốc điều h&agrave;nh bộ phận kinh doanh ti&ecirc;u d&ugrave;ng của Huawei, đ&atilde; tiết lộ rằng Huawei OS sẽ tương th&iacute;ch với smartphone, m&aacute;y t&iacute;nh,&nbsp;<a href="https://www.thegioididong.com/may-tinh-bang" target="_blank">m&aacute;y t&iacute;nh bảng</a>, TV, xe hơi, thiết bị đeo th&ocirc;ng minh v&agrave; nhiều hệ thống kh&aacute;c.</p>\r\n\r\n<p>Nguồn:&nbsp;<a href="https://www.gizchina.com/2019/06/07/suspected-huawei-ark-os-interface-appears-online/" target="_blank">Gizchina</a></p>\r\n', '636944709585403075_huawei-dat-doanh-thu-khung-tren-tmall-cover.jpg', '2019-06-10 00:27:23', '1', '2019-06-12 22:53:05', '1', 0, 1),
-(6, 'Sắm Galaxy A50, "bá chủ" bán chạy tầm trung, tặng thêm quà Samsung chính hãng', 'sam-galaxy-a50-ba-chu-ban-chay-tam-trung-tang-them-qua-samsung-chinh-hang', '', '<p>Cụ thể hơn, khi mua&nbsp;Samsung Galaxy A50 ngay b&acirc;y giờ bạn sẽ nhận được c&aacute;c ưu đ&atilde;i cực kỳ hấp dẫn sau:</p>\r\n\r\n<ul>\r\n	<li>Tặng sạc nhanh dự ph&ograve;ng 10.000 mAh ch&iacute;nh h&atilde;ng Samsung (hỗ trợ t&iacute;nh năng sạc nhanh).</li>\r\n	<li>Giảm ngay 300.000 đồng qua qu&agrave; tặng Galaxy (Kh&ocirc;ng &aacute;p dụng chương tr&igrave;nh thu cũ đổi mới).</li>\r\n	<li>Giảm th&ecirc;m 3%, tức khoảng 210.000 đồng cho<a href="https://www.thegioididong.com/tin-tuc/uu-dai-sinh-nhat-giam-soc-den-40--nhanh-tay-nao-ban--1168670" target="_blank">&nbsp;kh&aacute;ch mua online c&oacute; sinh nhật trong th&aacute;ng 6</a>&nbsp;(Kh&ocirc;ng &aacute;p dụng chương tr&igrave;nh thu cũ đổi mới, trả g&oacute;p 0%).</li>\r\n	<li>Đổi m&aacute;y cũ l&ecirc;n đời A50 tiết kiệm đến 7.000.000 đồng, &aacute;p dụng từ ng&agrave;y 1/6 đến 30/6​.</li>\r\n</ul>\r\n\r\n<p>Samsung Galaxy A50 l&agrave; chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-samsung" target="_blank">smartphone Samsung&nbsp;</a>tầm trung mới&nbsp;trong năm 2019 với nhiều t&iacute;nh năng hấp dẫn như cảm biến v&acirc;n tay dưới m&agrave;n h&igrave;nh,&nbsp;m&agrave;n h&igrave;nh Infinity-U tr&agrave;n viền, 3 camera cho chất lượng ảnh tốt,...</p>\r\n\r\n<p><img alt="" src="/DO-AN-TN-2019/public/upload/images/samsung-galaxy-a50-black-10_800x450.jpg" style="height:450px; width:800px" /></p>\r\n\r\n<p>Để đặt mua hoặc biết th&ecirc;m c&aacute;c th&ocirc;ng tin kh&aacute;c về&nbsp;Samsung Galaxy A50, bạn c&oacute; thể nhấn v&agrave;o đường dẫn sản phẩm ngay sau đ&acirc;y!</p>\r\n\r\n<p><img alt="" src="/DO-AN-TN-2019/public/upload/images/samsung-galaxy-a50-black-9(1).jpg" style="height:450px; width:800px" /></p>\r\n', 'samsung-galaxy-a50-black-9.jpg', '2019-06-26 17:22:04', '1', '2019-06-26 17:22:04', '1', 1, 1);
+(4, 'Bất chấp lệnh cấm, doanh số smartphone của Huawei vẫn tăng 130% ở Trung Quốc', 'bat-chap-lenh-cam-doanh-so-smartphone-cua-huawei-van-tang-130-o-trung-quoc', 'Điều này cho thấy ảnh hưởng từ cuộc chiến tranh thương mại Mỹ - Trung lên thị trường Trung Quốc là không đáng kể.', '<p>Kể từ khi ch&iacute;nh phủ Hoa Kỳ đưa&nbsp;<a href="https://fptshop.com.vn/dien-thoai/huawei" target="_blank">Huawei</a>&nbsp;v&agrave;o &ldquo;danh s&aacute;ch đen&rdquo;, rất nhiều c&ocirc;ng ty như Google Intel, Qualcomm v&agrave; ARM,... đều cũng đ&atilde; l&ecirc;n tiếng x&aacute;c nhận ngừng hợp t&aacute;c với nh&agrave; sản xuất đến từ Trung Quốc n&agrave;y.</p>\r\n\r\n<p>Ngo&agrave;i ra, c&aacute;c hiệp hội như Wi-Fi Alliance, hiệp hội b&aacute;n dẫn JEDEC, SDA (Hiệp hội SD) v&agrave; ti&ecirc;u chuẩn PCIe cũng hủy bỏ tư c&aacute;ch th&agrave;nh vi&ecirc;n của Huawei. Người ta tin rằng t&igrave;nh trạng n&agrave;y sẽ l&agrave;m sụp đổ hoạt động kinh doanh của Huawei ngay cả ở thị trường qu&ecirc; nh&agrave; Trung Quốc. Tuy nhi&ecirc;n, dường như lệnh cấm của Mỹ đang khuyến kh&iacute;ch người Trung Quốc chọn mua smartphone của nh&agrave; sản xuất Trung Quốc n&agrave;y.</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="https://fptshop.com.vn/uploads/images/tin-tuc/84115/Originals/Huawei-dat-doanh-thu-khung-tren-Tmall-2.jpg" style="height:650px; width:300px" /></p>\r\n\r\n<p>Cụ thể, sau lệnh cấm của Mỹ đối với Huawei v&agrave;o ng&agrave;y 16 th&aacute;ng 5, doanh số của điện thoại th&ocirc;ng minh Huawei tr&ecirc;n nền tảng Tmall đ&atilde; tăng mạnh. Theo dữ liệu ch&iacute;nh thức từ Tmall, từ ng&agrave;y 18 đến 20 th&aacute;ng 5, c&aacute;c l&ocirc; h&agrave;ng điện thoại di động của Huawei từ Tmall đ&atilde; tăng 130%, vượt mức tăng trưởng trung b&igrave;nh của ng&agrave;nh smartphone n&oacute;i chung tới 30%. V&agrave; để &ldquo;ăn mừng&rdquo; điều n&agrave;y, Huawei cũng đ&atilde; đăng tải một tấm poster để &ldquo;chia vui&rdquo; c&ugrave;ng người d&ugrave;ng.</p>\r\n\r\n<p>Để đạt được điều n&agrave;y l&agrave; do Trung Quốc gần như l&agrave; một thị trường kh&eacute;p k&iacute;n với c&aacute;c dịch vụ &ldquo;tự cung tự cấp&rdquo; v&agrave; kh&ocirc;ng hề dựa dẫm qu&aacute; nhiều v&agrave;o m&ocirc;i trường b&ecirc;n ngo&agrave;i. Do đ&oacute; ảnh hưởng từ lệnh cấm vận của Mỹ l&ecirc;n thị trường tỷ d&acirc;n n&agrave;y l&agrave; kh&ocirc;ng đ&aacute;ng kể v&agrave; Huawei ho&agrave;n to&agrave;n c&oacute; thể l&agrave;m chủ t&igrave;nh h&igrave;nh ở ngay tại thị trường nội địa m&agrave; kh&ocirc;ng gặp bất cứ vấn đề n&agrave;o.</p>\r\n\r\n<p><strong>Theo:&nbsp;</strong><em><a href="http://www.gizchina.com/2019/05/24/huawei-smartphone-shipment-grows-despite-us-ban/" target="_blank">Gizchina</a></em></p>\r\n', 'huawei-hongmeng-os_800x450.jpg', '2021-05-26 23:18:02', '1', '2021-06-23 18:03:27', '1', 1, 1),
+(5, 'HongMeng OS của Huawei xuất hiện trực tuyến, có tên quốc tế là Ark OS', 'hongmeng-os-cua-huawei-xuat-hien-truc-tuyen-co-ten-quoc-te-la-ark-os', '', '<h2>Kh&ocirc;ng c&ograve;n nghi ngờ g&igrave; nữa,&nbsp;<a href="https://www.thegioididong.com/dtdd-huawei" target="_blank">Huawei</a>&nbsp;đang ph&aacute;t triển hệ điều h&agrave;nh của ri&ecirc;ng m&igrave;nh, c&oacute; thể được gọi l&agrave;&nbsp;<a href="https://www.thegioididong.com/tin-tuc/huawei-mate-30-se-chay-he-dieu-hanh-hongmeng-os-va-chip-kirin-985-1170811" target="_blank">HongMeng OS</a>&nbsp;ở Trung Quốc v&agrave; Ark OS ở c&aacute;c quốc gia kh&aacute;c. Hệ thống n&agrave;y đ&atilde; th&ocirc;ng qua chứng nhận nh&atilde;n hiệu của Văn ph&ograve;ng Thương hiệu Trung Quốc cũng như Văn ph&ograve;ng Sở hữu Tr&iacute; tuệ Ch&acirc;u &Acirc;u.</h2>\r\n\r\n<p>C&aacute;c b&aacute;o c&aacute;o gần đ&acirc;y cho thấy Huawei đ&atilde; nộp đơn xin cấp bằng s&aacute;ng chế giao diện&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;với t&ecirc;n l&agrave; Huawei Ark OS.&nbsp;Trong đ&oacute;, Ark v&agrave; Huawei Ark đ&atilde; được&nbsp;Văn ph&ograve;ng nh&atilde;n hiệu v&agrave; bằng s&aacute;ng chế của Đức chứng nhận v&agrave;o th&aacute;ng 3 năm nay.</p>\r\n\r\n<p>Ứng dụng bằng s&aacute;ng chế cũng bao gồm một loạt c&aacute;c ảnh chụp m&agrave;n h&igrave;nh. Tuy nhi&ecirc;n, kh&ocirc;ng r&otilde; liệu ảnh chụp m&agrave;n h&igrave;nh b&ecirc;n dưới c&oacute; thuộc hệ thống HongMeng/ Ark sắp tới của Huawei hay kh&ocirc;ng.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt="" src="https://cdn.tgdd.vn/Files/2019/06/08/1171773/Gallery/ark-os-z.jpg" style="height:309px; width:550px" /></p>\r\n\r\n<p>Một trong những ảnh chụp m&agrave;n h&igrave;nh c&oacute; cụm từ &quot;Android Green Alliance&quot; gợi &yacute; rằng hệ thống HongMeng/ Ark c&oacute; thể tương th&iacute;ch với c&aacute;c ứng dụng&nbsp;<a href="https://www.thegioididong.com/dtdd?g=android" target="_blank">Android</a>. Li&ecirc;n minh Android Xanh được Huawei, Alibaba, Tencent v&agrave; Netease phối hợp ra mắt. N&oacute; nhằm mục đ&iacute;ch tạo ra một hệ sinh th&aacute;i ứng dụng an to&agrave;n, đ&aacute;ng tin cậy v&agrave; l&agrave;nh mạnh.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt="" src="https://cdn.tgdd.vn/Files/2019/06/08/1171773/ark-os_550x409.jpg" style="height:409px; width:550px" /></p>\r\n\r\n<p>Hiện nay, nhiều c&ocirc;ng ty đ&atilde; tham gia. Trước đ&acirc;y, Yu Chengdong -&nbsp;Gi&aacute;m đốc điều h&agrave;nh bộ phận kinh doanh ti&ecirc;u d&ugrave;ng của Huawei, đ&atilde; tiết lộ rằng Huawei OS sẽ tương th&iacute;ch với smartphone, m&aacute;y t&iacute;nh,&nbsp;<a href="https://www.thegioididong.com/may-tinh-bang" target="_blank">m&aacute;y t&iacute;nh bảng</a>, TV, xe hơi, thiết bị đeo th&ocirc;ng minh v&agrave; nhiều hệ thống kh&aacute;c.</p>\r\n\r\n<p>Nguồn:&nbsp;<a href="https://www.gizchina.com/2019/06/07/suspected-huawei-ark-os-interface-appears-online/" target="_blank">Gizchina</a></p>\r\n', '636944709585403075_huawei-dat-doanh-thu-khung-tren-tmall-cover.jpg', '2021-06-10 00:27:23', '1', '2021-06-12 22:53:05', '1', 0, 1),
+(6, 'Sắm Galaxy A50, "bá chủ" bán chạy tầm trung, tặng thêm quà Samsung chính hãng', 'sam-galaxy-a50-ba-chu-ban-chay-tam-trung-tang-them-qua-samsung-chinh-hang', '', '<p>Cụ thể hơn, khi mua&nbsp;Samsung Galaxy A50 ngay b&acirc;y giờ bạn sẽ nhận được c&aacute;c ưu đ&atilde;i cực kỳ hấp dẫn sau:</p>\r\n\r\n<ul>\r\n	<li>Tặng sạc nhanh dự ph&ograve;ng 10.000 mAh ch&iacute;nh h&atilde;ng Samsung (hỗ trợ t&iacute;nh năng sạc nhanh).</li>\r\n	<li>Giảm ngay 300.000 đồng qua qu&agrave; tặng Galaxy (Kh&ocirc;ng &aacute;p dụng chương tr&igrave;nh thu cũ đổi mới).</li>\r\n	<li>Giảm th&ecirc;m 3%, tức khoảng 210.000 đồng cho<a href="https://www.thegioididong.com/tin-tuc/uu-dai-sinh-nhat-giam-soc-den-40--nhanh-tay-nao-ban--1168670" target="_blank">&nbsp;kh&aacute;ch mua online c&oacute; sinh nhật trong th&aacute;ng 6</a>&nbsp;(Kh&ocirc;ng &aacute;p dụng chương tr&igrave;nh thu cũ đổi mới, trả g&oacute;p 0%).</li>\r\n	<li>Đổi m&aacute;y cũ l&ecirc;n đời A50 tiết kiệm đến 7.000.000 đồng, &aacute;p dụng từ ng&agrave;y 1/6 đến 30/6​.</li>\r\n</ul>\r\n\r\n<p>Samsung Galaxy A50 l&agrave; chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-samsung" target="_blank">smartphone Samsung&nbsp;</a>tầm trung mới&nbsp;trong năm 2019 với nhiều t&iacute;nh năng hấp dẫn như cảm biến v&acirc;n tay dưới m&agrave;n h&igrave;nh,&nbsp;m&agrave;n h&igrave;nh Infinity-U tr&agrave;n viền, 3 camera cho chất lượng ảnh tốt,...</p>\r\n\r\n<p><img alt="" src="/DO-AN-TN-2019/public/upload/images/samsung-galaxy-a50-black-10_800x450.jpg" style="height:450px; width:800px" /></p>\r\n\r\n<p>Để đặt mua hoặc biết th&ecirc;m c&aacute;c th&ocirc;ng tin kh&aacute;c về&nbsp;Samsung Galaxy A50, bạn c&oacute; thể nhấn v&agrave;o đường dẫn sản phẩm ngay sau đ&acirc;y!</p>\r\n\r\n<p><img alt="" src="/DO-AN-TN-2019/public/upload/images/samsung-galaxy-a50-black-9(1).jpg" style="height:450px; width:800px" /></p>\r\n', 'samsung-galaxy-a50-black-9.jpg', '2021-06-26 17:22:04', '1', '2021-06-26 17:22:04', '1', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -168,22 +167,22 @@ CREATE TABLE `db_customer` (
 --
 
 INSERT INTO `db_customer` (`id`, `fullname`, `username`, `password`, `address`, `phone`, `email`, `created`, `trash`, `status`) VALUES
-(2, 'Hiệp gà', 'hiep1998', 'e10adc3949ba59abbe56e057f20f883e', '', '0981643651', 'noreply.estore.pnb.2021@gmail.com', '2019-05-24 22:10:08', 1, 1),
-(9, 'Nguyễn Đức Lương', 'luong1998', 'e10adc3949ba59abbe56e057f20f883e', '', '090932323', 'luong@gmail.com', '2019-06-11 17:15:12', 1, 1),
-(39, 'Bảo bự', '', '', '', '052244141', 'baobu@gmail.com', '2019-06-16 23:19:45', 1, 1),
-(46, 'Dương Minh Trí', '', '', '', '0908030405', '', '2019-06-22 23:11:42', 1, 1),
-(47, 'Trần Thanh Tuy', '', '', '', '090305146', '', '2019-06-22 23:16:45', 1, 1),
-(48, 'Xuân Thịnh', '', '', '', '090640316', '', '2019-06-25 22:52:27', 1, 1),
-(49, 'Minh Sang', '', '', '', '0913164136', '', '2019-06-25 22:58:22', 1, 1),
-(50, 'Hoàng Dũng', '', '', '', '096323646', '', '2019-06-25 23:09:57', 1, 1),
-(51, 'Nguyễn Văn Trường', '', '', '', '0357646765', '', '2019-06-26 13:17:30', 1, 1),
-(52, 'Hiệp Ngô', '', '', '', '076613166', '', '2019-06-26 16:26:19', 1, 1),
-(53, 'Thanh Sơn', '', '', '', '0903121564', '', '2019-06-28 15:57:50', 0, 1),
-(54, 'Thành', '', '', '', '033564616', '', '2019-06-28 22:17:44', 0, 1),
-(55, 'Lương 21', '', '', '', '03056451', '', '2019-06-29 15:02:46', 1, 1),
-(56, 'Tuấn Anh', '', '', '', '0305464844', '', '2019-06-29 15:09:06', 0, 1),
-(57, 'Tiến Đạt', '', '', '', '032133234', '', '2019-07-05 23:01:51', 1, 1),
-(66, 'Hiệp 2019', 'hiep2019', 'e10adc3949ba59abbe56e057f20f883e', '', '0306444854', 'noreply.estore.pnb.2021@gmail.com', '2019-07-06 00:00:00', 1, 1);
+(2, 'Trần Quốc Bảo', 'bao2001', 'e10adc3949ba59abbe56e057f20f883e', '', '0788963500', 'noreply.estore.pnb.2021@gmail.com', '2021-05-24 22:10:08', 1, 1),
+(9, 'Sầm Đức Cường', 'cuong2001', 'e10adc3949ba59abbe56e057f20f883e', '', '090932323', 'cuong@gmail.com', '2021-06-11 17:15:12', 1, 1),
+(39, 'Dương Đình Danh', '', '', '', '052244141', 'danhbits@gmail.com', '2021-06-16 23:19:45', 1, 1),
+(46, 'Trần Quốc Đạt', '', '', '', '0908030405', '', '2021-06-22 23:11:42', 1, 1),
+(47, 'Nguyễn Duy', '', '', '', '090305146', '', '2021-06-22 23:16:45', 1, 1),
+(48, 'Trần Ngọc Duy', '', '', '', '090640316', '', '2021-06-25 22:52:27', 1, 1),
+(49, 'Nguyễn Trí Hải', '', '', '', '0913164136', '', '2021-06-25 22:58:22', 1, 1),
+(50, 'Nguyễn Văn Lịch', '', '', '', '096323646', '', '2021-06-25 23:09:57', 1, 1),
+(51, 'Hồ Quang Linh', '', '', '', '0357646765', '', '2021-06-26 13:17:30', 1, 1),
+(52, 'Bùi Đình Lộc', '', '', '', '076613166', '', '2021-06-26 16:26:19', 1, 1),
+(53, 'Nguyễn Phùng Lê Luân', '', '', '', '0903121564', '', '2021-06-28 15:57:50', 0, 1),
+(54, 'Võ Thành Luân', '', '', '', '033564616', '', '2021-06-28 22:17:44', 0, 1),
+(55, 'Phạm Ngọc Hoàng Minh', '', '', '', '03056451', '', '2021-06-29 15:02:46', 1, 1),
+(56, 'Trần Nguyễn Bảo Phúc', '', '', '', '0305464844', '', '2021-06-29 15:09:06', 0, 1),
+(57, 'Phạm Xuân Nhựt', '', '', '', '032133234', '', '2021-07-05 23:01:51', 1, 1),
+(66, 'Bao 2021', 'bao2021', 'e10adc3949ba59abbe56e057f20f883e', '', '0306444854', 'noreply1.estore.pnb.2021@gmail.com', '2021-07-06 00:00:00', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -211,15 +210,14 @@ CREATE TABLE `db_discount` (
 --
 
 INSERT INTO `db_discount` (`id`, `code`, `discount`, `limit_number`, `number_used`, `expiration_date`, `payment_limit`, `description`, `created`, `orders`, `trash`, `status`) VALUES
-(1, 'MAHETLUOT', 100000, 30, 30, '2019-09-29', 500000, 'Giam 100000', '2019-06-10', 1, 1, 1),
-(2, 'VANHIEP', 200000, 20, 3, '2019-06-12', 500000, 'Giam 200k', '2019-06-10', 1, 0, 1),
-(3, 'VANHIEP123', 200000, 300, 103, '2019-07-20', 300000, 'giảm 200k', '2019-06-25', 1, 1, 1),
-(4, 'MAHETHAN', 150000, 68, 23, '2019-06-30', 500000, 'giảm 300k', '2019-06-25', 1, 1, 1),
-(11, 'GBHVDU47CRQK', 100000, 1, 0, '2019-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2019-07-06', 0, 1, 1),
-(12, 'C8MNIAKEILSS', 100000, 1, 0, '2019-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2019-07-06', 0, 1, 1),
-(13, 'CAOTHANG', 150000, 200, 0, '2019-07-26', 100000, 'Giảm 150k', '2019-07-06', 1, 1, 1),
-(14, 'RRHVDU47CRSO', 100000, 1, 0, '2019-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2019-07-06', 0, 1, 1),
-(15, '9WOXIAKEILSS', 100000, 1, 0, '2019-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2019-07-06', 0, 1, 1);
+(1, 'MAHETLUOT', 100000, 30, 30, '2021-09-29', 500000, 'Giam 100000', '2021-06-10', 1, 1, 1),
+(2, 'VANLICH', 200000, 20, 3, '2021-06-12', 500000, 'Giam 200k', '2021-06-10', 1, 0, 1),
+(3, 'VANLICH123', 200000, 300, 103, '2021-07-20', 300000, 'giảm 200k', '2021-06-25', 1, 1, 1),
+(4, 'MAHETHAN', 150000, 68, 23, '2021-06-30', 500000, 'giảm 300k', '2021-06-25', 1, 1, 1),
+(5, 'CN19B', 1000000, 70, 0, '2022-06-30', 500000, 'giảm 1 triệu cho CN19B', '2021-06-25', 1, 1, 1),
+(13, 'CAOTHANG', 150000, 200, 0, '2021-07-26', 100000, 'Giảm 150k', '2021-07-06', 1, 1, 1),
+(14, 'RRHVDU47CRSO', 100000, 1, 0, '2021-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2021-07-06', 0, 1, 1),
+(15, '9WOXIAKEILSS', 100000, 1, 0, '2021-08-06', 0, 'Mã giảm giá 100.000 đ tự động khi đăng ký thành công', '2021-07-06', 0, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -981,44 +979,44 @@ CREATE TABLE `db_order` (
 --
 
 INSERT INTO `db_order` (`id`, `orderCode`, `customerid`, `orderdate`, `fullname`, `phone`, `money`, `price_ship`, `coupon`, `province`, `district`, `address`, `trash`, `status`) VALUES
-(7, '9Xa0wWsx', 39, '2019-05-24 22:10:25', 'Ngô Văn Hiệp test', '981643651', 73190000, 30000, 0, 79, 761, 'Lê đức thọ', 1, 2),
-(8, 'kBbR02fq', 2, '2019-06-08 22:16:37', 'Ngô Văn Hiệp', '0981643651', 22520000, 30000, 0, 60, 597, 'so nha 23', 1, 3),
-(9, 'ynPqQjPX', 9, '2019-06-11 21:38:46', 'Ngô Văn Hiệp', '0981643651', 30610000, 30000, 0, 74, 721, 'so nha 23', 1, 0),
-(10, '9PKJZdES', 9, '2019-06-14 00:17:31', 'Ngô Văn Hiệp', '981643651', 68280000, 30000, 0, 79, 764, 'Hẻm 493, Lê đức thọ, Phường 16', 1, 1),
-(42, 'ONyIhUsT', 2, '2019-06-20 23:44:34', 'Hiệp gà', '0981643651', 29600000, 30000, 0, 70, 696, 'ss', 1, 3),
-(43, '5OV82vwX', 39, '2019-06-21 16:08:26', 'Bảo bự', '0932323252', 20030000, 30000, 0, 79, 770, '30, Nam kỳ khởi nghĩa', 1, 0),
-(44, 'A3M9aBsQ', 2, '2019-06-21 16:20:59', 'Hiệp gà', '0981643651', 80510000, 30000, 0, 79, 760, '33, Hàm nghi', 1, 0),
-(45, 'Q3KRv23X', 2, '2019-06-21 16:26:11', 'Hiệp gà', '0981643651', 34610000, 30000, 0, 79, 760, '33, Hàm nghi', 1, 3),
-(46, 'YCuxWwS8', 2, '2019-06-21 16:34:33', 'Hiệp gà', '0981643651', 39710000, 30000, 0, 79, 761, '11A, Quốc lô 1A, Ngã tư ga', 1, 2),
-(47, 'qpzSKH6S', 2, '2019-06-21 16:47:05', 'Hiệp gà', '0981643651', 20530000, 30000, 0, 79, 761, '', 1, 2),
-(48, '3pBolrH7', 2, '2019-06-21 16:48:25', 'Hiệp gà', '0981643651', 20180000, 30000, 0, 79, 771, '', 1, 3),
-(49, 'DNZ9O0v4', 2, '2019-06-22 21:24:09', 'Hiệp gà', '0981643651', 134570000, 30000, 0, 52, 543, 'ddd', 1, 1),
-(50, 'B9pS7vS9', 46, '2019-06-22 23:11:42', 'Dương Minh Trí', '0908030405', 33800000, 30000, 0, 79, 778, '90, Nguyễn Thị Thấp, Phuong Tân Thuận', 1, 4),
-(51, '2PaYlRw0', 47, '2019-06-22 23:16:45', 'Trần Thanh Tuy', '090305146', 17500000, 30000, 0, 96, 969, '11, Nguyễn Trãi', 1, 2),
-(52, 'iLsZ3OSp', 2, '2019-06-24 22:33:14', 'Hiệp gà', '0981643651', 49630000, 30000, 100000, 79, 760, '33, Võ thị sáu, phường Bến nghé', 1, 3),
-(53, 'ZRpyN4s4', 2, '2019-06-24 22:50:43', 'Hiệp gà', '0981643651', 11920000, 30000, 100000, 31, 311, '11, Lê Duẩn, p11', 1, 4),
-(54, 'ynJiNdW6', 48, '2019-06-25 22:52:27', 'Xuân Thịnh', '090640316', 15330000, 30000, 100000, 79, 765, '11, Điện Biên Phủ, p 11', 1, 0),
-(55, 'rGAmiC25', 49, '2019-06-25 22:58:22', 'Minh Sang', '0913164136', 22230000, 30000, 100000, 79, 773, 'Số 33, Hẻm 337, Nguyễn Tất Thành, p10', 0, 2),
-(56, 'DVpI5Z2S', 50, '2019-06-25 23:09:57', 'Hoàng Dũng', '096323646', 52410000, 30000, 100000, 79, 764, '11, Phan Huy Ích, p4', 1, 0),
-(57, 'qWuGMFF4', 2, '2019-06-25 23:29:53', 'Hiệp gà', '0981643651', 860000, 30000, 100000, 79, 760, '11, Hàm Nghi, p14', 1, 2),
-(58, 'Ys1tyS43', 9, '2019-06-26 00:18:09', 'Nguyễn Đức Lương', '090932323', 19430000, 30000, 100000, 79, 761, '11, Hà Huy Giáp, p Thành Lộc', 0, 0),
-(59, 'ZtQ6Lo3D', 9, '2019-06-26 00:23:39', 'Nguyễn Đức Lương', '090932323', 15920000, 30000, 100000, 79, 760, '11, Lý Tự Trọng, P Bến Thành', 1, 1),
-(60, 'BrDHRuS3', 9, '2019-06-26 00:24:27', 'Nguyễn Đức Lương', '090932323', 18930000, 30000, 0, 60, 595, '', 1, 4),
-(61, 'J2DcgBS5', 9, '2019-06-26 00:26:39', 'Nguyễn Đức Lương', '090932323', 18930000, 30000, 0, 96, 972, '', 1, 0),
-(62, 'UbFtpe2E', 9, '2019-06-26 00:30:42', 'Nguyễn Đức Lương', '090932323', 14830000, 30000, 100000, 92, 926, 'EEFEF', 1, 0),
-(63, 'L5M40Dle', 9, '2019-06-26 13:15:36', 'Nguyễn Đức Lương', '090932323', 15870000, 30000, 150000, 79, 778, '11, Nguyễn Thị Thập, p Tân Thuận', 0, 4),
-(64, 'B17rt3S6', 51, '2019-06-26 13:17:30', 'Nguyễn Văn Trường', '0357646765', 29730000, 30000, 200000, 48, 497, '30a, Phạm Văn Chiêu', 1, 4),
-(65, 'p7fMeu3n', 2, '2019-06-26 16:26:19', 'Hiệp Ngô', '076613166', 16820000, 30000, 0, 79, 778, 'efef', 0, 2),
-(66, '8yXWhO11', 53, '2019-06-28 15:57:50', 'Thanh Sơn', '0903121564', 15330000, 30000, 100000, 79, 760, '46, Lê Lơi, Bến Thành', 1, 0),
-(67, '6lVn7Bim', 54, '2019-06-28 22:17:44', 'Thành', '033564616', 51830000, 30000, 0, 79, 760, '33, Đường số 14', 1, 0),
-(68, 'qxDgoJvp', 2, '2019-06-28 22:23:47', 'Hiệp gà', '0981643651', 23010000, 30000, 0, 79, 761, '33A/11, Đường Hà Huy Giáp', 1, 4),
-(69, 'voGyL6jS', 55, '2019-06-29 15:02:46', 'Lương 21', '03056451', 11720000, 30000, 200000, 79, 760, '33, Huỳnh Thúc Khàng, P Bến Thành', 1, 0),
-(70, 'IOM5jzdT', 9, '2019-06-29 15:04:28', 'Nguyễn Đức Lương', '090932323', 48000000, 30000, 0, 79, 778, 'Hẻm 253, Trần Xuân Soạn, Tân Thuận', 1, 4),
-(71, 'bTRYE81q', 56, '2019-06-29 15:09:06', 'Tuấn Anh', '0305464844', 22810000, 30000, 200000, 79, 760, '44, Lê Lai, P Bến Thành', 1, 1),
-(72, 'MlzJ2HV5', 2, '2019-06-29 15:10:39', 'Hiệp gà', '0981643651', 31780000, 30000, 200000, 79, 768, '27, Đào Duy Anh', 0, 3),
-(73, '5LZxClVb', 2, '2019-06-29 22:01:22', 'Hiệp gà', '0981643651', 30830000, 30000, 0, 95, 957, 'wded', 1, 1),
-(74, 'q1sHScIN', 57, '2019-07-05 23:01:51', 'Tiến Đạt', '032133234', 12730000, 30000, 0, 79, 775, '33, Nguyễn Hữa Cảnh', 1, 1),
-(75, '3x4iJyP1', 66, '2019-07-06 22:12:24', 'Hiệp 2019', '0306444854', 7360000, 30000, 100000, 79, 778, '33, Nguyễn Thị Thập', 1, 0);
+(7, '9Xa0wWsx', 39, '2021-05-24 22:10:25', 'Phạm Xuân Nhựt test', '981643651', 73190000, 30000, 0, 79, 761, 'Lê đức thọ', 1, 2),
+(8, 'kBbR02fq', 2, '2021-06-08 22:16:37', 'Phạm Xuân Nhựt', '0981643651', 22520000, 30000, 0, 60, 597, 'so nha 23', 1, 3),
+(9, 'ynPqQjPX', 9, '2021-06-11 21:38:46', 'Phạm Xuân Nhựt', '0981643651', 30610000, 30000, 0, 74, 721, 'so nha 23', 1, 0),
+(10, '9PKJZdES', 9, '2021-06-14 00:17:31', 'Phạm Xuân Nhựt', '981643651', 68280000, 30000, 0, 79, 764, 'Hẻm 493, Lê đức thọ, Phường 16', 1, 1),
+(42, 'ONyIhUsT', 2, '2021-06-20 23:44:34', 'Trần Nguyễn Bảo Phúc', '0981643651', 29600000, 30000, 0, 70, 696, 'ss', 1, 3),
+(43, '5OV82vwX', 39, '2021-06-21 16:08:26', 'Bảo bự', '0932323252', 20030000, 30000, 0, 79, 770, '30, Nam kỳ khởi nghĩa', 1, 0),
+(44, 'A3M9aBsQ', 2, '2021-06-21 16:20:59', 'Trần Nguyễn Bảo Phúc', '0981643651', 80510000, 30000, 0, 79, 760, '33, Hàm nghi', 1, 0),
+(45, 'Q3KRv23X', 2, '2021-06-21 16:26:11', 'Trần Nguyễn Bảo Phúc', '0981643651', 34610000, 30000, 0, 79, 760, '33, Hàm nghi', 1, 3),
+(46, 'YCuxWwS8', 2, '2021-06-21 16:34:33', 'Trần Nguyễn Bảo Phúc', '0981643651', 39710000, 30000, 0, 79, 761, '11A, Quốc lô 1A, Ngã tư ga', 1, 2),
+(47, 'qpzSKH6S', 2, '2021-06-21 16:47:05', 'Trần Nguyễn Bảo Phúc', '0981643651', 20530000, 30000, 0, 79, 761, '', 1, 2),
+(48, '3pBolrH7', 2, '2021-06-21 16:48:25', 'Trần Nguyễn Bảo Phúc', '0981643651', 20180000, 30000, 0, 79, 771, '', 1, 3),
+(49, 'DNZ9O0v4', 2, '2021-06-22 21:24:09', 'Trần Nguyễn Bảo Phúc', '0981643651', 134570000, 30000, 0, 52, 543, 'ddd', 1, 1),
+(50, 'B9pS7vS9', 46, '2021-06-22 23:11:42', 'Trần Quốc Bảo', '0908030405', 33800000, 30000, 0, 79, 778, '90, Nguyễn Thị Thấp, Phuong Tân Thuận', 1, 4),
+(51, '2PaYlRw0', 47, '2021-06-22 23:16:45', 'Trần Quốc Bảo', '090305146', 17500000, 30000, 0, 96, 969, '11, Nguyễn Trãi', 1, 2),
+(52, 'iLsZ3OSp', 2, '2021-06-24 22:33:14', 'Trần Nguyễn Bảo Phúc', '0981643651', 49630000, 30000, 100000, 79, 760, '33, Võ thị sáu, phường Bến nghé', 1, 3),
+(53, 'ZRpyN4s4', 2, '2021-06-24 22:50:43', 'Trần Nguyễn Bảo Phúc', '0981643651', 11920000, 30000, 100000, 31, 311, '11, Lê Duẩn, p11', 1, 4),
+(54, 'ynJiNdW6', 48, '2021-06-25 22:52:27', 'Trần Quốc Bảo', '090640316', 15330000, 30000, 100000, 79, 765, '11, Điện Biên Phủ, p 11', 1, 0),
+(55, 'rGAmiC25', 49, '2021-06-25 22:58:22', 'Trần Quốc Bảo', '0913164136', 22230000, 30000, 100000, 79, 773, 'Số 33, Hẻm 337, Nguyễn Tất Thành, p10', 0, 2),
+(56, 'DVpI5Z2S', 50, '2021-06-25 23:09:57', 'Trần Quốc Bảo', '096323646', 52410000, 30000, 100000, 79, 764, '11, Phan Huy Ích, p4', 1, 0),
+(57, 'qWuGMFF4', 2, '2021-06-25 23:29:53', 'Trần Nguyễn Bảo Phúc', '0981643651', 860000, 30000, 100000, 79, 760, '11, Hàm Nghi, p14', 1, 2),
+(58, 'Ys1tyS43', 9, '2021-06-26 00:18:09', 'Trần Quốc Bảo', '090932323', 19430000, 30000, 100000, 79, 761, '11, Hà Huy Giáp, p Thành Lộc', 0, 0),
+(59, 'ZtQ6Lo3D', 9, '2021-06-26 00:23:39', 'Trần Quốc Bảo', '090932323', 15920000, 30000, 100000, 79, 760, '11, Lý Tự Trọng, P Bến Thành', 1, 1),
+(60, 'BrDHRuS3', 9, '2021-06-26 00:24:27', 'Trần Quốc Bảo', '090932323', 18930000, 30000, 0, 60, 595, '', 1, 4),
+(61, 'J2DcgBS5', 9, '2021-06-26 00:26:39', 'Trần Quốc Bảo', '090932323', 18930000, 30000, 0, 96, 972, '', 1, 0),
+(62, 'UbFtpe2E', 9, '2021-06-26 00:30:42', 'Trần Quốc Bảo', '090932323', 14830000, 30000, 100000, 92, 926, 'EEFEF', 1, 0),
+(63, 'L5M40Dle', 9, '2021-06-26 13:15:36', 'Trần Quốc Bảo', '090932323', 15870000, 30000, 150000, 79, 778, '11, Nguyễn Thị Thập, p Tân Thuận', 0, 4),
+(64, 'B17rt3S6', 51, '2021-06-26 13:17:30', 'Trần Quốc Bảo', '0357646765', 29730000, 30000, 200000, 48, 497, '30a, Phạm Văn Chiêu', 1, 4),
+(65, 'p7fMeu3n', 2, '2021-06-26 16:26:19', 'Trần Quốc Bảo', '076613166', 16820000, 30000, 0, 79, 778, 'efef', 0, 2),
+(66, '8yXWhO11', 53, '2021-06-28 15:57:50', 'Trần Quốc Bảo', '0903121564', 15330000, 30000, 100000, 79, 760, '46, Lê Lơi, Bến Thành', 1, 0),
+(67, '6lVn7Bim', 54, '2021-06-28 22:17:44', 'Trần Quốc Bảo', '033564616', 51830000, 30000, 0, 79, 760, '33, Đường số 14', 1, 0),
+(68, 'qxDgoJvp', 2, '2021-06-28 22:23:47', 'Trần Nguyễn Bảo Phúc', '0981643651', 23010000, 30000, 0, 79, 761, '33A/11, Đường Hà Huy Giáp', 1, 4),
+(69, 'voGyL6jS', 55, '2021-06-29 15:02:46', 'Trần Quốc Bảo', '03056451', 11720000, 30000, 200000, 79, 760, '33, Huỳnh Thúc Khàng, P Bến Thành', 1, 0),
+(70, 'IOM5jzdT', 9, '2021-06-29 15:04:28', 'Trần Quốc Bảo', '090932323', 48000000, 30000, 0, 79, 778, 'Hẻm 253, Trần Xuân Soạn, Tân Thuận', 1, 4),
+(71, 'bTRYE81q', 56, '2021-06-29 15:09:06', 'Trần Quốc Bảo', '0305464844', 22810000, 30000, 200000, 79, 760, '44, Lê Lai, P Bến Thành', 1, 1),
+(72, 'MlzJ2HV5', 2, '2021-06-29 15:10:39', 'Trần Nguyễn Bảo Phúc', '0981643651', 31780000, 30000, 200000, 79, 768, '27, Đào Duy Anh', 0, 3),
+(73, '5LZxClVb', 2, '2021-06-29 22:01:22', 'Trần Nguyễn Bảo Phúc', '0981643651', 30830000, 30000, 0, 95, 957, 'wded', 1, 1),
+(74, 'q1sHScIN', 57, '2021-07-05 23:01:51', 'Trần Quốc Bảo', '032133234', 12730000, 30000, 0, 79, 775, '33, Nguyễn Hữa Cảnh', 1, 1),
+(75, '3x4iJyP1', 66, '2021-07-06 22:12:24', 'Trần Quốc Bảo', '0306444854', 7360000, 30000, 100000, 79, 778, '33, Nguyễn Thị Thập', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -1121,9 +1119,9 @@ CREATE TABLE `db_producer` (
 --
 
 INSERT INTO `db_producer` (`id`, `name`, `code`, `keyword`, `created_at`, `created_by`, `modified`, `modified_by`, `status`, `trash`) VALUES
-(1, 'Digiworld', 'DIGIWORLD', 'dienthoai,laptop', '2019-05-22 16:08:31', 4, '2019-05-22 16:08:31', 4, 1, 1),
-(2, 'Nhà cung cấp di động gò vấp', 'GOVAPPRODUCER', ' dienthoai, maytinhbang,laptop,phukien', '2019-06-12 23:30:37', 1, '2019-07-05 10:52:13', 1, 1, 1),
-(3, 'CÔNG TY THẾ GIỚI DI ĐỘNG', 'TGDDCODE', 'dienthoai,laptop', '2019-05-22 16:06:31', 4, '2019-06-12 23:40:22', 1, 1, 1);
+(1, 'Digiworld', 'DIGIWORLD', 'dienthoai,laptop', '2021-05-22 16:08:31', 4, '2021-05-22 16:08:31', 4, 1, 1),
+(2, 'Nhà cung cấp di động gò vấp', 'GOVAPPRODUCER', ' dienthoai, maytinhbang,laptop,phukien', '2021-06-12 23:30:37', 1, '2021-07-05 10:52:13', 1, 1, 1),
+(3, 'CÔNG TY THẾ GIỚI DI ĐỘNG', 'TGDDCODE', 'dienthoai,laptop', '2021-05-22 16:06:31', 4, '2021-06-12 23:40:22', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -1295,12 +1293,12 @@ CREATE TABLE `db_slider` (
 --
 
 INSERT INTO `db_slider` (`id`, `name`, `link`, `img`, `created`, `created_by`, `modified`, `modified_by`, `trash`, `status`) VALUES
-(1, 'Banner1', 'banner-1', '2.jpg', '2019-06-13 21:27:24', '1', '2019-06-13 23:42:42', '', 0, 1),
-(2, 'Banner 2', 'Banner-2', 'default.png', '2019-06-13 23:45:04', '1', '2019-06-13 23:45:44', '', 0, 1),
-(3, 'trang chu 1', 'trang-chu', 'default.png', '2019-07-03 17:05:52', '1', '2019-07-03 17:07:18', '', 1, 1),
-(4, 'slider trang chu 2', 'slider-trang-chu-2', 'iphone-banner.jpg', '2019-07-03 17:06:38', '1', '2019-07-03 17:06:38', '1', 1, 1),
-(5, 'slider trang chu 3', 'slider-trang-chu-3', 'xsmaxbanner.png', '2019-07-03 17:06:58', '1', '2019-07-03 17:06:58', '1', 1, 1),
-(6, 'ss', 'ss', 'icon_142e7.png', '2019-07-03 17:08:07', '1', '2019-07-03 17:08:07', '1', 0, 1);
+(1, 'Banner1', 'banner-1', '2.jpg', '2021-06-13 21:27:24', '1', '2021-06-13 23:42:42', '', 0, 1),
+(2, 'Banner 2', 'Banner-2', 'default.png', '2021-06-13 23:45:04', '1', '2021-06-13 23:45:44', '', 0, 1),
+(3, 'trang chu 1', 'trang-chu', 'default.png', '2021-07-03 17:05:52', '1', '2021-07-03 17:07:18', '', 1, 1),
+(4, 'slider trang chu 2', 'slider-trang-chu-2', 'iphone-banner.jpg', '2021-07-03 17:06:38', '1', '2021-07-03 17:06:38', '1', 1, 1),
+(5, 'slider trang chu 3', 'slider-trang-chu-3', 'xsmaxbanner.png', '2021-07-03 17:06:58', '1', '2021-07-03 17:06:58', '1', 1, 1),
+(6, 'ss', 'ss', 'icon_142e7.png', '2021-07-03 17:08:07', '1', '2021-07-03 17:08:07', '1', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -1334,9 +1332,9 @@ INSERT INTO `db_user` (`id`, `fullname`, `username`, `password`, `role`, `email`
 (3, 'Nhân viên', 'nhanvien', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'nv@gmail.com', 1, '09990990', 'Gò vấp', 'b78af1dc3e1098f71e7cd607c49f5d51.png', '2019-04-23 09:20:41', 1, 1),
 (4, 'Nguyễn Văn A', 'nhanviena', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'nv@gmail.com', 1, '0985657410', 'Gò vấp 1', '403ceb0ed6fdb72494bbd2ac39182b04.png', '2019-04-25 22:08:18', 1, 1),
 (6, 'Nguyễn Văn B', 'nhanvienb', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'nv@gmail.com', 0, '09876543532', 'Gò vấp', 'user.png', '2019-04-23 09:18:18', 1, 1),
-(7, 'Nguyễn Đức Lương', 'luong', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'luong@gmail.com', 0, '23523523423', 'Gò vấp', '5eab74ad301795ffdfaa82f52579f71d.png', '2019-06-13 22:15:15', 0, 1),
-(8, 'Ngô Văn Hiệp', 'hiep1998', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'noreply.estore.pnb.2021@gmail.com', 0, '981643651', 'Gò vấp', 'default.png', '2019-06-13 22:30:03', 0, 1),
-(9, 'Ngô Văn Hiệp test 22223', '', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 2, '', 0, '', 'Lê đức thọ 2', 'default.png', '2019-06-13 22:59:14', 0, 1);
+(7, 'Trần Quốc Bảo', 'bao2k1', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'micaetranquocbao2001@gmail.com', 0, '23523523423', 'Gò vấp', '5eab74ad301795ffdfaa82f52579f71d.png', '2019-06-13 22:15:15', 0, 1),
+(8, 'Phạm Xuân Nhựt', 'nhut2k1', '7c4a8d09ca3762af61e59520943dc26494f8941b', 2, 'noreply.estore.pnb.2021@gmail.com', 0, '981643651', 'Gò vấp', 'default.png', '2019-06-13 22:30:03', 0, 1),
+(9, 'Phạm Xuân Nhựt test 22223', '', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 2, '', 0, '', 'Lê đức thọ 2', 'default.png', '2019-06-13 22:59:14', 0, 1);
 
 -- --------------------------------------------------------
 

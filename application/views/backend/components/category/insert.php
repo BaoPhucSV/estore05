@@ -1,7 +1,7 @@
 
 <?php echo form_open_multipart('admin/category/insert'); ?>
 <div class="content-wrapper">
-	<form action="<?php echo base_url() ?>admin/category/insert.html" enctype="multipart/form-data" method="POST" accept-charset="utf-8">
+	<form action="admin/category/insert.html" enctype="multipart/form-data" method="POST" accept-charset="utf-8">
 		<section class="content-header">
 			<h1><i class="glyphicon glyphicon-cd"></i> Thêm danh mục mới</h1>
 			<div class="breadcrumb">

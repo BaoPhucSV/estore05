@@ -42,7 +42,7 @@
 										<tr>
 											<td class="text-center"><?php echo $val['id'] ?></td>
 											<td>
-												<a href="<?php echo base_url() ?>admin/category/update/<?php echo $val['id'] ?>"><?php echo $val['name'] ?></a>	
+												<a href="admin/category/update/<?php echo $val['id'] ?>"><?php echo $val['name'] ?></a>	
 											</td>
 											<td><?php echo $val['link'] ?></td>
 											<td><?php echo $val['created_at'] ?></td>

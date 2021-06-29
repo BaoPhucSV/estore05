@@ -1,0 +1,2 @@
+<?php echo base_url() ?>admin/useradmin => admin/useradmin
+<?php echo base_url() ?>admin/category => admin/category
