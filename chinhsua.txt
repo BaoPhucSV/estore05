@@ -35,4 +35,7 @@ thành:
 
 
 
-
+--Nhựt sửa 30/06
+<?php echo base_url() ?>admin/product/update
+thành:
+admin/product/update
