@@ -71,7 +71,7 @@ if($user['img']){
         </li>
         <li class="user-footer">
             <div class="pull-left">
-                <a href="<?php echo base_url()?>admin/useradmin/update/<?php echo $user['id'] ?>" class="btn btn-default btn-flat">Chi tiết</a>
+                <a href="admin/useradmin/update/<?php echo $user['id'] ?>" class="btn btn-default btn-flat">Chi tiết</a>
             </div>
             <div class="pull-right">
                 <a href="admin/user/logout.html" class="btn btn-default btn-flat">Thoát</a>

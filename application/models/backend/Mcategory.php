@@ -65,7 +65,7 @@ class Mcategory extends CI_Model {
 		$this->db->limit(1);
         $query = $this->db->get($this->table);
         $row=$query->row_array();
-        return $row['name'];
+        return isSet($row['name'])?$row['name']:null;
 	}
 	// Lấy lên danh sách danh mục
 	public function category_list()
