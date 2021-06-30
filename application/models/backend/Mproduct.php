@@ -25,7 +25,7 @@ class Mproduct extends CI_Model {
     //detail
 	public function product_detail($id)
     {
-        $this->db->where('trash', 1);
+        // $this->db->where('trash', 1);
         $this->db->where('id', $id);
         $query = $this->db->get($this->table);
         return $query->row_array();   
