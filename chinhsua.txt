@@ -35,10 +35,17 @@ thành:
 
 
 
---Nhựt sửa 30/06
+--Nhựt sửa 30/06/2021
+Sửa dòng 101, 73
 <?php echo base_url() ?>admin/product/update
 thành:
 admin/product/update
+
+Trong insert.php(dòng 11) có thêm cái 
+<?php echo base_url()?>admin/producer
+--lí do: vì bỏ đi echo base_url()... sau khi thêm sản phẩm nó không chịu về trang product nên giữ nguyên cái đó
+
+
 
 Trong  application/controllers/admin/Product.php
 Sửa function ở 216

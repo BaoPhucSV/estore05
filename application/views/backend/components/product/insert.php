@@ -1,6 +1,6 @@
 <?php echo form_open_multipart('admin/product/insert'); ?>
 <div class="content-wrapper">
-	<form action="<?php echo base_url() ?>admin/product/insert.html" enctype="multipart/form-data" method="POST" accept-charset="utf-8">
+	<form action="admin/product/insert.html" enctype="multipart/form-data" method="POST" accept-charset="utf-8">
 		<section class="content-header">
 			<h1><i class="glyphicon glyphicon-cd"></i> Thêm sản phẩm mới</h1>
 			<div class="breadcrumb">
@@ -8,7 +8,7 @@
 					<span class="glyphicon glyphicon-floppy-save"></span>
 					Lưu[Thêm]
 				</button>
-				<a class="btn btn-primary btn-sm" href="admin/product" role="button">
+				<a class="btn btn-primary btn-sm" href="<?php echo base_url()?>admin/product" role="button">
 					<span class="glyphicon glyphicon-remove do_nos"></span> Thoát
 				</a>
 			</div>
