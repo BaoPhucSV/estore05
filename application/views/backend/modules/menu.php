@@ -19,7 +19,7 @@
                 </a>
             </li>
             <li class="treeview">
-                <a href="<?php echo base_url()?>admin/category">
+                <a href="admin/category">
                     <i class="fa fa-indent"></i><span>Loại sản phẩm</span>
                 </a>
             </li>
