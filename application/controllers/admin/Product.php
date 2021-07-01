@@ -217,7 +217,7 @@ class Product extends CI_Controller {
         $this->load->helper('file');
         $row = $this->Mproduct->product_detail($id);
         unlink(FCPATH . "public/images/products/" . $row['avatar']);
-        // unlink(FCPATH . "public/images/products/" . $row['img']);
+        unlink(FCPATH . "public/images/products/" . $row['img']);
         $this->Mproduct->product_delete($id);
         $this->session->set_flashdata('success', 'Xóa sản phẩm thành công');
         redirect('admin/product/recyclebin','refresh');
