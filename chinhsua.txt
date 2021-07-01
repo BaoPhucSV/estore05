@@ -44,7 +44,7 @@ admin/product/update
 Trong insert.php(dòng 11) có thêm cái 
 <?php echo base_url()?>admin/producer
 --lí do: vì bỏ đi echo base_url()... sau khi thêm sản phẩm nó không chịu về trang product nên giữ nguyên cái đó
-sửa này 
+sửa này dòng 2 trong jcarousel.php
 <!-- //FlexSlider-->
 Thành
 //<!-- //FlexSlider-->
